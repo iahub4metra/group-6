@@ -13,3 +13,18 @@
 @import url('./your-order.css');
 @import url('./footer.css');
 @import url('./reset.css');
+
+:root {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 14px;
+  line-height: 1.28571;
+  font-weight: 500;
+
+  color: #141414;
+  background-color: #FBFBFB;
+}
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
