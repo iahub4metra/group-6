@@ -1,0 +1,44 @@
+.advertisement{
+    padding: 80px 10px 80px 10px;
+    background: #FBFBFB;
+    gap: 10px;
+ }
+
+ .advertisement-container{
+    background-color: #FBFBFB;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 355px;
+    height: 309px;
+ }
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advertisement-text{
+    font-family: "Inter Tight";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.04; /* 104.167% */
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+}
+
+.advertisement-accent{
+    background: #576F35;
+    border-radius: 12px;
+    color: #FBFBFB;
+    display: block;
+}
