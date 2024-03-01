@@ -14,13 +14,9 @@
   margin-bottom: 14px;
   display: flex;
   gap: 4px;
+  height: 16px;
 }
 .footer-logo-link {
-  font-family: 'Inter Tight', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.28571;
-  color: #fbfbfb;
 }
 .footer-text {
   font-family: 'Inter Tight', sans-serif;
