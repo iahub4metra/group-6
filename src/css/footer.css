@@ -1,0 +1,86 @@
+/*==========FOOTER==========*/
+.footer {
+  background-color: #7a3145;
+  padding: 40px 0;
+}
+.footer-container {
+  margin-bottom: 80px;
+}
+.menu-footer-container {
+  margin-bottom: 40px;
+  max-width: 296px;
+}
+.footer-logo {
+  margin-bottom: 14px;
+  display: flex;
+  gap: 4px;
+}
+.footer-logo-link {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fbfbfb;
+}
+.footer-text {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fbfbfb;
+}
+.link-adress-footer {
+  max-width: 215px;
+}
+.footer-links {
+  margin-bottom: 40px;
+}
+.nav-footer-links {
+  max-width: 215px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}
+.nav-footer-link {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+}
+.adress-list-footer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}
+.adress-link {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+}
+.end-footer {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: -0.01em;
+  color: rgba(251, 251, 251, 0.5);
+  display: flex;
+  justify-content: space-between;
+}
+.privacy-footer {
+  line-height: 1.33333;
+  display: flex;
+  gap: 8px;
+}
+.privacy-list {
+  display: flex;
+  gap: 8px;
+}
+.footer-green {
+  line-height: 1.16667;
+}
+/*==========FOOTER==========*/
