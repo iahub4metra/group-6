@@ -5,11 +5,12 @@
 }
 
 .order-title {
-    width: 335px;
+    /* width: 335px; */
+    width: 100%;
     color: #fbfbfb;
     font-weight: 600;
     font-size: 48px;
-    line-height: 104%;
+    line-height: 1.04;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     margin-bottom: 29px;
@@ -20,7 +21,8 @@
 }
 
 .order-title-text {
-    width: 335px;
+    /* width: 335px; */
+    width: 100%;
     color: #fbfbfb;
     font-weight: 500;
     font-size: 14px;
@@ -32,7 +34,8 @@
     background-color: #FBFBFB;
     border-radius: 30px;
     padding: 40px 20px;
-    width: 335px;
+    /* width: 335px; */
+    width: 100%;
     min-height: 533px;
 }
 
@@ -92,8 +95,9 @@
     text-transform: uppercase;
     color: #FBFBFB;
     border-radius: 30px;
-    padding: 16px 129px;
-    width: 295px;
+    /* padding: 16px 129px; */
+    /* width: 295px; */
+    width: 100%;
     height: 50px;
     background-color: #576F35;
     border: none;
@@ -103,7 +107,8 @@
     margin-top: 20px;
     border-radius: 30px;
     padding: 40px 20px;
-    width: 335px;
+    /* width: 335px; */
+    width: 100%;
     height: 465px;
     background-color: #576F35;
 }
