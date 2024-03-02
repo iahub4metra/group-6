@@ -101,6 +101,8 @@
         .vegetables-cover-text {
             width: 626px;
             margin-bottom: 50px;
+            font-size: 16px;
+            line-height: 1.25;
     }
 
         .vegetables-title-color {
@@ -120,11 +122,8 @@
                 max-width: 334px;
                 max-height: 379px;
                 padding: 32px 30px;
-        }
-        .vegetables-item {
-             flex-basis: calc((100% - 20px) / 2);
-        }
-    
+                flex-basis: calc((100% - 20px) / 2);
+        }  
     }
 
         @media screen and (min-width: 1280px) {
@@ -141,11 +140,6 @@
             
         }
 
-        .vegetables-cover-text {
-            width: 626px;
-            margin-bottom: 50px;
-    }
-
         .vegetables-title-color {
             font-size: 64px;
                 line-height: 1;
@@ -160,13 +154,10 @@
         }
         .vegetables-item {
             border-radius: 40px;
-                max-width: 346px;
-                max-height: 379px;
                 padding: 32px;
+                flex-basis: calc((100% - 42px) / 3);
 
         }
-        .vegetables-item {
-             flex-basis: calc((100% - 42px) / 3);
-        }
+        
        
         }
