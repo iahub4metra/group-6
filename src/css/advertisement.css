@@ -53,14 +53,12 @@
   font-size: 64px;
   line-height: 1.09; /* 109.375% */
   letter-spacing: -0.015em;
-  padding: 8px 16px 0 16px;
-  position: relative;
 }
 
 .advertisemen-accent{
   display: inline;
-  width: 736px;
-  padding: 8px 16px 0 16px;
+  max-width: 736px;
+  padding: 8px 16px 0;
 }
 }
 
@@ -73,17 +71,18 @@
   font-size: 76px;
   line-height: 1.05; /* 105.263% */
   letter-spacing: -0.015em;
-  width: 1054px;
+  max-width: 1054px;
   display: inline;
 }
 .advertisemen-accent{
-  width: 736px;
+  max-width: 808px;
   display: inline;
   z-index: 999;
   position: relative;
-  padding-left: 13px;
+  padding: 0 13px;
 }
 .advertisement-span{
-  display: inline;
+  display: inline-block;
+  padding-left: 13px;
 }
 }
