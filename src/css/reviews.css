@@ -1,31 +1,21 @@
 .reviews {
     padding-top: 40px;
     padding-bottom: 80px;
-  }
-  .reviews-conteiner {
-  }
-  
-  .reviews-log {
-    gap: 20px;
-    width: 100%;
-    display: flex;
-    position: relative;
-    max-width: 335px;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  .reviews-logotip {
+}
+.reviews-conteiner {
+    
+}
+
+.reviews-logotip {
     width: 100%;
     max-width: 335px;
     min-height: auto;
     margin-top: 0;
     text-align: left;
     margin-bottom: 0;
-  }
+}
   
-  .reviews-title {
+.reviews-title {
     color: #141414;
     font-size: 48px;
     font-style: normal;
@@ -33,10 +23,10 @@
     font-weight: 600;
     line-height: 50px;
     letter-spacing: -1px;
-    text-transform: uppercase;
-  }
+   text-transform: uppercase;
+}
   
-  .reviews-span {
+.reviews-span {
     font-size: 48px;
     font-style: normal;
     font-family: "Inter Tight",sans-serif;
@@ -45,17 +35,18 @@
     letter-spacing: -1px;
     text-transform: uppercase;
     color: #576f35;
-  }
-  .reviews-title {
+}
+
+.reviews-title {
     width: 100%;
     max-width: 335px;
     min-height: auto;
     margin-top: 20px;
     text-align: left;
     margin-bottom: 40px;
-  }
+}
   
-  .reviews-title-text {
+.reviews-title-text {
     color: #141414;
     font-size: 14px;
     font-style: normal;
@@ -64,9 +55,9 @@
     line-height: 18px;
     letter-spacing: 0;
     text-transform: none;
-  }
+}
   
-  .rewiews-list {
+.rewiews-list {
     margin-bottom: 80px;
     width: 100%;
     display: flex;
@@ -75,9 +66,9 @@
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-  }
+}
   
-  .reviews-item {
+.reviews-item {
     position: relative;
     width: 100%;
     gap: 8px;
@@ -88,18 +79,22 @@
     border-bottom: 1px solid #7a3145;
     border-radius: 24px 24px 24px 24px;
     background-color: #fbfbfb;
-  }
+}
   
-  .reviews-picture {
+.reviews-picture {
     width: 100%;
     height: auto;
     margin: 0;
     display: block;
     max-width: 56px;
     border-radius: 100px 100px 100px 100px;
-  }
+}
+
+.frame-text{
+
+}
   
-  .reviews-subtitle {
+.reviews-subtitle {
     width: 100%;
     max-width: auto;
     margin-top: 0;
@@ -115,9 +110,9 @@
     letter-spacing: -1px;
     text-transform: none;
     padding-bottom: 8px;
-  }
+}
   
-  .reviews-item-text {
+.reviews-item-text {
     color: rgba(17, 17, 17, 0.4);
     text-align: center;
     font-size: 14px;
@@ -130,4 +125,11 @@
     margin-bottom: 38px;
     letter-spacing: 0;
     text-transform: none;
-  }
+}
+
+.tablet {
+
+}
+.tablet-desktop {
+
+}
