@@ -3,14 +3,27 @@
   justify-content: center;
 }
 
+.works-content {
+  max-width: 375px;
+  min-width: 320px;
+}
+
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .works-picture-container {
   display: flex;
   background-color: #7a3145;
-  min-width: 320px;
-  max-width: 374px;
   padding: 40px 20px;
 }
 
@@ -38,8 +51,6 @@
 
 .works-list-container {
   background-color: #576f35;
-  min-width: 320px;
-  max-width: 375px;
   padding: 80px 20px;
 }
 
@@ -66,20 +77,6 @@
   color: #fbfbfb;
   margin-bottom: 40px;
 }
-
-/* @media screen and (min-width: 320px) and (max-width: 375px) {
-  .works-text-big {
-    font-size: calc(28px * (100vw / 375));
-    width: calc(355px * (100vw / 375));
-    height: calc(112px * (100vw / 375));
-  }
-
-  .works-text-small {
-    font-size: calc(14px * (100vw / 375));
-    width: calc(355px * (100vw / 375));
-    height: calc(54px * (100vw / 375));
-  }
-} */
 
 .instruction-list {
   display: flex;
@@ -129,19 +126,58 @@
   color: rgba(20, 20, 20, 0.6);
 }
 
-/* .step-one {
-  width: 208px;
-}
-
-.step-two {
-  width: 176px;
-}
-
-.step-three {
-  width: 211px;
-} */
-
 .list-bold-text {
   color: #141414;
   font-weight: 700;
+}
+
+/* --- tablet adaptive design --- */
+@media screen and (min-width: 768px) {
+  .works-content {
+    min-width: 768px;
+  }
+  .works-picture-container {
+    display: flex;
+    justify-content: center;
+    max-width: 768;
+    padding: 100px 64px;
+  }
+
+  .works-list-container {
+    padding: 100px 159px;
+  }
+
+  .works-text-big {
+    font-size: 32px;
+    letter-spacing: -0.01em;
+  }
+
+  .work-text-small {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .instruction-list-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+/* --- desktop adaptive design --- */
+@media screen and (min-width: 1280px) {
+  .works-content {
+    display: flex;
+    flex-direction: row;
+    max-width: 1280px;
+  }
+
+  .works-picture-container {
+    max-width: 630px;
+    padding: 100px;
+  }
+
+  .works-list-container {
+    max-width: 650px;
+    padding: 100px 100px 160px 100px;
+  }
 }
