@@ -1,16 +1,10 @@
 .advertisement{
-    padding: 80px 10px 80px 10px;
+    padding: 80px 0;
     background: #FBFBFB;
-    gap: 10px;
  }
 
  .advertisement-container{
-    background-color: #FBFBFB;
-    margin-top: 3px;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 355px;
-    height: 309px;
+    padding: 0 10px;
  }
 
 .visually-hidden{
@@ -35,10 +29,17 @@
     letter-spacing: -0.015em;
     text-transform: uppercase;
 }
-
-.advertisement-accent{
+.advertisemen-accent{
     background: #576F35;
     border-radius: 12px;
     color: #FBFBFB;
     display: block;
+    padding: 3px 10px 0 10px;
+  }
+  
+.advertisement-span{
+  color: #141414;
+  background-color: #FBFBFB;
+  padding: 0 10px;
+  display: block;
 }
