@@ -45,6 +45,7 @@
 .vegetables-list {
     display: flex;
   flex-direction: column;
+    gap: 20px;
  
 }
 
@@ -56,8 +57,8 @@
     border-radius: 40px;
     max-width: 334px;
     max-height: 379px;
-  padding: 32px 26px;
-margin-bottom: 20px;
+    padding: 32px 26px;
+ 
 
 }
 
@@ -79,7 +80,6 @@ margin-bottom: 20px;
         text-transform: uppercase;
         color: #141414;
      
-
 }
 
 .vegetables-picture {
