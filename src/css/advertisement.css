@@ -28,13 +28,18 @@
     line-height: 1.04; /* 104.167% */
     letter-spacing: -0.015em;
     text-transform: uppercase;
+}
+.advertisemen-accent{
     background: #576F35;
     border-radius: 12px;
     color: #FBFBFB;
     display: block;
-}
-
+    padding: 3px 10px 0 10px;
+  }
+  
 .advertisement-span{
   color: #141414;
   background-color: #FBFBFB;
+  padding: 0 10px;
+  display: block;
 }
