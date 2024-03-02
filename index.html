@@ -15,7 +15,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   
   <script type="module" crossorigin src="/group-6/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/group-6/assets/index-b66a96d2.css">
+  <link rel="stylesheet" href="/group-6/assets/index-dc7c9f1b.css">
 </head>
 
 <body>
@@ -295,7 +295,7 @@
   </div>
 </section>
     <section class="order">
-    <div class="container">
+    <div class="container order-container">
         <h2 class="order-title">Fresh <span class="order-title-span">Harvest</span> Box has got you covered</h2>
         <p class="order-title-text">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone
             looking
@@ -313,18 +313,23 @@
                 <input type="email" name="user-email" class="order-modal-input" required id="email" placeholder="Email">
                 <label for="user-text" class="order-modal-label"></label>
                 <textarea name="user-text" id="user-text" placeholder="Comment" class="order-modal-textarea"></textarea>
-                <button type="submit">Send</button>
+                <button class="order-modal-btn" type="submit">Send</button>
             </form>
         </div>
-        <div>
-            <picture>
-                <source media="(min-width:1280px)"
-                    srcset="/group-6/assets/comp-order-23b70678.jpg 1x, /group-6/assets/comp-order2x-801d5de1.jpg 2x">
-                <source media="(min-width:768px)" srcset="/group-6/assets/tab-order-b497d03a.jpg 1x, /group-6/assets/tab-order2x-7905dc16.jpg 2x">
-                <source media="(min-width:320px)"
-                    srcset="/group-6/assets/mobile-order-ed72d6c1.jpg 1x, /group-6/assets/mobile-order2x-2b380115.jpg 2x">
-                <img src="/group-6/assets/mobile-order-ed72d6c1.jpg" alt="fresh" class="order-img" width="295">
-            </picture>
+
+        <div class="order-second-container">
+            <div class="order-picture-container">
+                <picture class="order-picture">
+                    <source media="(min-width:1280px)"
+                        srcset="/group-6/assets/comp-order-23b70678.jpg 1x, /group-6/assets/comp-order2x-801d5de1.jpg 2x">
+                    <source media="(min-width:768px)"
+                        srcset="/group-6/assets/tab-order-b497d03a.jpg 1x, /group-6/assets/tab-order2x-7905dc16.jpg 2x">
+                    <source media="(min-width:320px)"
+                        srcset="/group-6/assets/mobile-order-11b03ad3.jpg 1x, /group-6/assets/mobile-order2x-77294569.jpg 2x">
+                    <img src="/group-6/assets/mobile-order-11b03ad3.jpg" alt="fresh" class="order-img" width="225">
+                </picture>
+            </div>
+
             <h4 class="order-subtitle">Follow us on our social networks:</h4>
             <ul class="order-list">
                 <li class="order-item">
@@ -334,15 +339,14 @@
                     <p class="order-item-text">/</p>
                 </li>
                 <li class="order-item">
-                    <a target="_blank" href="https://www.youtube.com/c/GoIT" class="order-link">facebook</a>
+                    <a target="_blank" href="https://www.facebook.com/goITclub/" class="order-link">facebook</a>
                 </li>
                 <li class="order-item">
                     <p class="order-item-text">/</p>
                 </li>
                 <li class="order-item">
-                    <a target="_blank" href="https://www.facebook.com/goITclub/" class="order-link">youtube</a>
+                    <a target="_blank" href="https://www.youtube.com/c/GoIT" class="order-link">youtube</a>
                 </li>
-
             </ul>
         </div>
     </div>
