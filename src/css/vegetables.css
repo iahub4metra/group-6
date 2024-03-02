@@ -7,8 +7,6 @@
 
 .vegetables-container {
     
-    
-
 
 }
 
@@ -75,7 +73,7 @@
 .vegetables-item-text {
         font-weight: 600;
         font-size: 14px;
-        line-height: 1.28571;
+        line-height: 1.28;
         letter-spacing: -0.01em;
         text-transform: uppercase;
         color: #141414;
@@ -86,3 +84,41 @@
     /* margin-bottom: 10px; */
 
 }
+ 
+    @media screen and (min-width: 768px) {
+
+        .vegetables {
+            max-width: 768px;
+            padding: 100px 32px;
+        }
+        .vegetables-title {
+            max-width: 768px;
+            font-size: 64px;
+            line-height: 1;
+            
+        }
+
+        .vegetables-cover-text {
+            width: 626px;
+            max-width: 768px;
+           
+        }
+
+        .vegetables-title-color {
+            font-size: 64px;
+                line-height: 1;
+        }
+
+        .vegetables-list {
+            column-gap: 20px;
+        }
+        .vegetables-item {
+            border-radius: 40px;
+                max-width: 334px;
+                max-height: 379px;
+                padding: 32px 30px;
+        }
+        .vegetables-item {
+             flex-basis: calc((100% - 20px) / 2);
+        }
+    }
