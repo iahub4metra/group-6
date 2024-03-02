@@ -64,6 +64,7 @@
 
 .advertisemen-accent{
   display: inline;
+  width: 736px;
 }
 }
 
@@ -76,8 +77,15 @@
   font-size: 76px;
   line-height: 1.05; /* 105.263% */
   letter-spacing: -0.015em;
+  max-width: 1054px;
+  display: inline;
 }
-
+.advertisemen-accent{
+  width: 808px;
+  display: inline-block;
+  z-index: 999;
+  position: relative;
+}
 .advertisement-span{
   display: inline;
 }
