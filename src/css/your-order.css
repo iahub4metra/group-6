@@ -5,7 +5,6 @@
 }
 
 .order-title {
-    /* width: 335px; */
     width: 100%;
     color: #fbfbfb;
     font-weight: 600;
@@ -21,7 +20,6 @@
 }
 
 .order-title-text {
-    /* width: 335px; */
     width: 100%;
     color: #fbfbfb;
     font-weight: 500;
@@ -79,10 +77,10 @@
 
 .order-modal-input::placeholder, .order-modal-textarea::placeholder {
     font-weight: 500;
-        font-size: 14px;
-        line-height: 1.29;
-        letter-spacing: -0.02em;
-        color: #141414;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #141414;
 
 }
 
@@ -107,7 +105,6 @@
     margin-top: 20px;
     border-radius: 30px;
     padding: 40px 20px;
-    /* width: 335px; */
     width: 100%;
     height: 465px;
     background-color: #576F35;
@@ -115,7 +112,7 @@
 
 .order-img {
     border-radius: 15px;
-    width: 295px;
+   width: 100%;
     height: 273px;
 }
 
@@ -139,7 +136,7 @@
     margin-bottom: 14px;
     font-weight: 600;
     font-size: 14px;
-    line-height: 129%;
+    line-height: 1.29;
     letter-spacing: -0.01em;
     color: rgba(251, 251, 251, 0.5);
 }
@@ -165,4 +162,75 @@
     font-size: 24px;
     line-height: 1.08;
     letter-spacing: -0.01em;
+}
+
+@media screen and (min-width: 768px) {
+    .order {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .order-title {
+        font-size: 64px;
+        line-height: 1;
+        padding-left: 32px;
+        margin-bottom: 25px;
+    }
+
+    .order-title-text {
+        font-size: 16px;
+        line-height: 1.25;
+        margin-left: 32px;
+        width: 640px;
+        margin-bottom: 50px;
+    }
+
+    .order-modal {
+        padding: 50px 100px;
+        margin-right: 70px;
+        margin-left: 70px;
+        width: 628px;
+        min-height: 534px;
+    }
+
+    .order-modal-subtitle {
+        margin-bottom: 50px;
+    }
+
+    .order-modal-input {
+        padding: 16px 16px;
+        height: 52px;
+    }
+
+    .order-modal-textarea {
+        padding: 16px 16px;
+        height: 95px;
+        margin-bottom: 25px;
+    }
+
+    .order-second-container {
+        margin-top: 25px;
+        margin-right: 70px;
+        margin-left: 70px;
+        padding: 50px;
+        width: 628px;
+        height: 490px;
+    }
+
+    .order-subtitle {
+        margin-top: 50px;
+        font-size: 18px;
+        line-height: 1.11;
+    }
+
+    .order-link {
+        font-style: 32px;
+        line-height: 1;
+    }
+
+    .order-item-text {
+        font-style: 32px;
+        line-height: 1;
+    }
+    
 }
