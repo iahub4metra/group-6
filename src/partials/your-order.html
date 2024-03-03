@@ -17,12 +17,12 @@
                 <form class="order-modal-form">
                     <label for="user-name" class="order-modal-label"></label>
                     <input type="text" name="user-name" class="order-modal-input" required id="user-name"
-                        placeholder="Full Name">
+                        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Full Name">
                     <label for="email" class="order-modal-label"></label>
                     <input type="email" name="user-email" class="order-modal-input" required id="email"
-                        placeholder="Email">
-                    <label for="user-text" class="order-modal-label"></label>
-                    <textarea name="user-text" id="user-text" placeholder="Comment"
+                        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Email">
+                    <label for="user-comment" class="order-modal-label"></label>
+                    <textarea name="user-comment" id="user-comment" placeholder="Comment"
                         class="order-modal-textarea"></textarea>
                     <button class="order-modal-btn" type="submit">Send</button>
                 </form>
