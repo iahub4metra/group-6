@@ -19,7 +19,7 @@
     line-height: 50px;
     letter-spacing: -1px;
    text-transform: uppercase;
-   margin-bottom: 40px;
+   margin-bottom: 20px;
 }
   
 .reviews-span {
@@ -64,7 +64,6 @@
     font-family: "Inter Tight",sans-serif;
     font-weight: 600;
     line-height: 20px;
-    letter-spacing: -1px;
     text-transform: none;
     
 }
@@ -89,27 +88,53 @@
 
 @media screen and (min-width: 768px) {
     .reviews {
-      padding: 100px;
+      padding: 100px 0;
+    }
+
+    .reviews-logotip {
+        max-width: 553px;
+    }
+
+    .reviews-title {
+        font-size: 64px;
+        line-height: 64px;
+        margin-bottom: 25px;
+    }
+
+    .reviews-title-text {
+        margin-bottom: 50px;
+        font-size: 16px;
+        line-height: 20px;
     }
   
     .rewiews-list {
        display: flex;
-       flex-direction: row;
-       flex-wrap: wrap;
        gap: 18px;
-       justify-content: center;
     }
+
     .reviews-item {
-      width: calc(100% - 18px) / 2;
+      width: calc((100% - 18px) / 2);
+      padding: 20px;
     }
+
     .tablet {
         display: block;
-}
+    }
+
+    .reviews-subtitle {
+        font-size: 18px;
+        line-height: 110%;
+    }
+
+    .reviews-item-text {
+        font-size: 16px;
+        line-height: 140%;
+    }
 }
    
 @media screen and (min-width: 1280px) {
     .reviews {
-      padding: 100px;
+      padding: 100px 0;
     }
   
     .rewiews-list {
