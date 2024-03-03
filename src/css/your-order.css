@@ -170,11 +170,6 @@
         padding-bottom: 100px;
     }
 
-    .order-title-container {
-        padding-left: 32px;
-
-    }
-
     .order-title {
         max-width: 640px;
         font-size: 64px;
@@ -189,9 +184,14 @@
         margin-bottom: 50px;
     }
 
+    .order-desktop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .order-modal {
         padding: 50px 100px;
-        margin: 0 auto;
         width: 628px;
         min-height: 534px;
     }
@@ -213,7 +213,6 @@
     }
 
     .order-second-container {
-        margin: 0 auto;
         margin-top: 25px;
         padding: 50px;
         width: 628px;
@@ -242,12 +241,10 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .order-title-container {
-        padding-left: 100px;
-    }
 
     .order-title {
         max-width: 751px;
+
     }
 
     .order-title-text {
@@ -255,9 +252,8 @@
     }
 
     .order-desktop {
-        display: flex;
+        flex-direction: row;
         gap: 24px;
-        justify-content: center;
     }
 
     .order-modal {
