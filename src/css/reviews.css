@@ -102,6 +102,9 @@
     .reviews-item {
       width: calc(100% - 18px) / 2;
     }
+    .tablet {
+        display: block;
+}
 }
    
 @media screen and (min-width: 1280px) {
@@ -120,4 +123,7 @@
       padding: 20px 16px;
       width: calc(100% - 50px) / 3;
     }
+    .tablet-desktop {
+        display: block;
+}
 }
