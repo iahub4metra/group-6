@@ -170,25 +170,28 @@
         padding-bottom: 100px;
     }
 
+    .order-title-container {
+        padding-left: 32px;
+
+    }
+
     .order-title {
+        max-width: 640px;
         font-size: 64px;
         line-height: 1;
-        padding-left: 32px;
         margin-bottom: 25px;
     }
 
     .order-title-text {
         font-size: 16px;
         line-height: 1.25;
-        margin-left: 32px;
         width: 640px;
         margin-bottom: 50px;
     }
 
     .order-modal {
         padding: 50px 100px;
-        margin-right: 70px;
-        margin-left: 70px;
+        margin: 0 auto;
         width: 628px;
         min-height: 534px;
     }
@@ -199,6 +202,7 @@
 
     .order-modal-input {
         padding: 16px 16px;
+        margin-bottom: 15px;
         height: 52px;
     }
 
@@ -209,9 +213,8 @@
     }
 
     .order-second-container {
+        margin: 0 auto;
         margin-top: 25px;
-        margin-right: 70px;
-        margin-left: 70px;
         padding: 50px;
         width: 628px;
         height: 490px;
@@ -228,9 +231,51 @@
         line-height: 1;
     }
 
+    .order-list {
+        gap: 12px;
+    }
+
     .order-item-text {
         font-style: 32px;
         line-height: 1;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .order-title-container {
+        padding-left: 100px;
+    }
+
+    .order-title {
+        max-width: 751px;
+    }
+
+    .order-title-text {
+        width: 742px;
+    }
+
+    .order-desktop {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+    }
+
+    .order-modal {
+        margin: 0;
+        padding: 50px;
+        width: 529px;
+        min-height: 534px;
+    }
+
+    .order-second-container {
+        margin: 0;
+        width: 527px;
+        min-height: 534px;
+    }
+
+    .order-list {
+        width: 357px;
+        gap: 12px;
     }
     
 }
