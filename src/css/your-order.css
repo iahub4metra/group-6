@@ -170,11 +170,6 @@
         padding-bottom: 100px;
     }
 
-    .order-title-container {
-        padding-left: 32px;
-
-    }
-
     .order-title {
         max-width: 640px;
         font-size: 64px;
@@ -191,10 +186,8 @@
 
     .order-desktop {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-
+        flex-direction: column;
+        align-items: center;
     }
 
     .order-modal {
@@ -259,9 +252,8 @@
     }
 
     .order-desktop {
+        flex-direction: row;
         gap: 24px;
-        flex-wrap: nowrap;
-        justify-content: start;
     }
 
     .order-modal {
