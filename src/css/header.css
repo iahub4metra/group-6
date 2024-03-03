@@ -1,28 +1,38 @@
 /* Heder */
 .header {
-
+background-color: #576f35;
 }
 
-.heder-container {}
+.heder-container {
+    padding-top: 20px;
+    padding-bottom: 48px;
+}
 
 .logo-green {
-    background-color: transparent;
-        border: none;
-        color: #000;}
-.footer-logo {
+display: inline-flex;
+align-items: center;
+gap: 4px;
+}
+
+.header-logo {
 
 }
 
-.heder-icons {
- 
+.header-logo-menu {
+    margin-left: 135px;
+    margin-right: 20px;
 }
 
-.header-navigation {}
+.heder-icons {}
+
+.header-navigation {
+display: none;
+}
 
 .header-soc-list {}
 
 .header-soc-item {
-    color: #000;
+    color: #FBFBFB;
     text-align: center;
     font-family: "Inter Tight";
     font-size: 16px;
@@ -51,23 +61,46 @@
     border-radius: 30px;
     background: #7A3145;
     padding: 16px 32px;
+    display: none;
+    border: none;
 }
 /* ---------- */
-/* Mobil-heder */
+/* /* Mobil-heder */
 
 .mobil-menu {
     background: #7A3145;
+    max-width: 375px;
+   height: 812px;
+    
 }
 
 .mobil-btn-close {
     background-color: transparent;
     border: none;
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 0;
+    position: absolute;
+    right: 0px;
 }
 
 .mobil-icons {
+
 }
 
-.mobil-navigation {}
+.mobil-navigation {
+}
+
+.mobil-list {
+padding-top: 240px;
+margin-bottom: 340px;
+display: flex;
+flex-direction: column;
+gap: 8px;
+align-items: center;
+justify-content: center;
+}
 
 .mobil-soc {
 color: #7A3145;
@@ -83,6 +116,9 @@ padding: 12px 16px;
 border-radius: 12px;
 border: 1px solid rgba(251, 251, 251, 0.40);
 background: #FBFBFB;
+
+
+
 }
 
 
@@ -99,11 +135,13 @@ letter-spacing: -0.015em;
 padding: 12px 16px;
 border-radius: 12px;
 border: 1px solid rgba(251, 251, 251, 0.40);
+
 }
 
 .mobil-menu-link {}
 
 .mobil-btn {
+    max-width: 375px;
 color: #7A3145;
 font-family: "Inter Tight";
 font-size: 14px;
@@ -116,5 +154,67 @@ text-transform: uppercase;
 padding: 16px 41px;
 border-radius: 30px;
 background: #FBFBFB;
+margin-left: 110px;
+border: none;
+
 }
 /* ---------- */
+/* Adaptiv */
+@media screen and (min-width:375px) {
+    .container {
+        width: 375px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .container {
+        width: 768px;
+        padding: 0 32px;
+ }
+
+    .header-logo-menu {
+    margin-left: 470px;
+    }
+.logo-green {
+margin-top: 48px;
+margin-bottom: 62px;
+}
+
+
+}
+
+@media screen and (min-width:1280px) {
+    .container {
+        width: 1280px;
+        padding: 0 100px;
+    }
+
+.heder-container {
+display: flex;
+align-items: center;
+
+}
+
+.header-logo-menu {
+    display: none;
+}
+.heder-btn {
+ display: flex;
+ margin-left: 20px;
+}
+.header-navigation {
+display: flex;
+}
+.header-soc-list {
+display: flex; 
+align-items: center;
+margin-left: 397px;
+gap: 8px;
+}
+.header-soc-item {
+    display: inline-block;
+gap: 70px;
+}
+
+}
+    /* --------- */
