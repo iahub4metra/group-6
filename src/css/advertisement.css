@@ -44,27 +44,46 @@
   display: block;
 }
 
-@media screen and (min-width:375px) {
-  
-}
-
 @media screen and (min-width: 768px) {
   .advertisement{
     padding: 100px 0;
  }
  .advertisement-text{
+  width: 736px;
   font-size: 64px;
   line-height: 1.09; /* 109.375% */
   letter-spacing: -0.015em;
+  padding: 8px 16px 0 16px;
+  position: relative;
+}
+
+.advertisemen-accent{
+  display: inline;
+  width: 736px;
+  padding: 8px 16px 0 16px;
 }
 }
+
 @media screen and (min-width: 1280px) {
   .advertisement {
+  width: 1080;
   padding: 100px 0;
 }
 .advertisement-text{
   font-size: 76px;
   line-height: 1.05; /* 105.263% */
   letter-spacing: -0.015em;
+  width: 1054px;
+  display: inline;
+}
+.advertisemen-accent{
+  width: 736px;
+  display: inline;
+  z-index: 999;
+  position: relative;
+  padding-left: 13px;
+}
+.advertisement-span{
+  display: inline;
 }
 }
