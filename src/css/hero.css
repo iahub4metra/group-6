@@ -4,7 +4,7 @@
 }
 
 .tittle {
-  font-family: 'Inter Tight' sans-serif;
+  font-family: 'Inter Tight', sans-serif;
   color: #fbfbfb;
   /* font-size: 76px; */
   font-size: 48px;
@@ -32,7 +32,7 @@
 }
 
 .section-hero {
-  background-image: url(/img/hero-img/vegetables1x\ phone-min.jpg);
+  background-image: url(/img/hero-img/vegetables1x-phone-min.jpg);
   background-repeat: no-repeat;
   background-position: 50% bottom;
   background-size: 375px 370px;
@@ -42,7 +42,7 @@
   screen and (min-resolution: 2dppx) and (min-width: 320px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
   .section-hero {
-    background-image: url('/img/hero-img/vegetables\ 2x\ phone-min.jpg');
+    background-image: url('/img/hero-img/vegetables-2x-phone-min.jpg');
   }
 }
 .hero-container {
@@ -59,7 +59,7 @@
   }
   .section-hero {
     height: 902px;
-    background-image: url(/img/hero-img/vegetables\ 1x\ tablet-min.jpg);
+    background-image: url(/img/hero-img/vegetables-1x\ tablet-min.jpg);
     background-size: 768px 539px;
   }
   .hero-container {
@@ -70,7 +70,7 @@
     screen and (min-resolution: 2dppx) and (min-width: 768px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .section-hero {
-      background-image: url('/img/hero-img/vegetables\ 2x\ tablet-min.jpg');
+      background-image: url('/img/hero-img/vegetables-2x-tablet-min.jpg');
     }
   }
 }
@@ -86,7 +86,7 @@
   }
   .section-hero {
     height: 800px;
-    background-image: url(/img/hero-img/vegetables\ 1x-min.jpg);
+    background-image: url(/img/hero-img/vegetables-1x-min.jpg);
     background-position-x: right;
     background-size: 650px 800px;
     padding-top: 154px;
@@ -98,7 +98,7 @@
     screen and (min-resolution: 2dppx) and (min-width: 1280px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
     .section-hero {
-      background-image: url('/img/hero-img/vegetables\ 2x-min.jpg');
+      background-image: url('/img/hero-img/vegetables-2x-min.jpg');
     }
   }
 }
