@@ -107,7 +107,7 @@
         line-height: 20px;
     }
   
-    .rewiews-list {
+    .reviews-list {
        display: flex;
        gap: 18px;
     }
@@ -137,7 +137,7 @@
       padding: 100px 0;
     }
   
-    .rewiews-list {
+    .reviews-list {
         display: flex;
         gap: 25px;
     }
