@@ -63,7 +63,6 @@
     border-radius: 30px;
     padding: 14px 16px;
     margin-bottom: 15px;
-    cursor: pointer;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -79,7 +78,6 @@
     border-radius: 15px;
     padding: 14px 16px;
     margin-bottom: 20px;
-    cursor: pointer;
     resize: none;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
