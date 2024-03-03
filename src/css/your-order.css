@@ -189,9 +189,16 @@
         margin-bottom: 50px;
     }
 
+    .order-desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
     .order-modal {
         padding: 50px 100px;
-        margin: 0 auto;
         width: 628px;
         min-height: 534px;
     }
@@ -213,7 +220,6 @@
     }
 
     .order-second-container {
-        margin: 0 auto;
         margin-top: 25px;
         padding: 50px;
         width: 628px;
@@ -242,12 +248,10 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .order-title-container {
-        padding-left: 100px;
-    }
 
     .order-title {
         max-width: 751px;
+
     }
 
     .order-title-text {
@@ -255,9 +259,9 @@
     }
 
     .order-desktop {
-        display: flex;
         gap: 24px;
-        justify-content: center;
+        flex-wrap: nowrap;
+        justify-content: start;
     }
 
     .order-modal {
