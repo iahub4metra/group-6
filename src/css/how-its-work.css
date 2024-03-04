@@ -1,6 +1,24 @@
 .section-works {
   display: flex;
   justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    #7a3145 0% 44.76%,
+    #576f35 44.76% 100%
+  );
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .works-content {
@@ -120,6 +138,20 @@
 
 /* --- tablet adaptive design --- */
 @media screen and (min-width: 768px) {
+  .section-works {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(
+      to bottom,
+      #7a3145 0% 55.1%,
+      #576f35 44.76% 100%
+    );
+  }
+
+  .works-content {
+    min-width: 768px;
+  }
+
   .works-picture-container {
     display: flex;
     justify-content: center;
@@ -149,9 +181,18 @@
 
 /* --- desktop adaptive design --- */
 @media screen and (min-width: 1280px) {
+  .section-works {
+    background: linear-gradient(
+      to right,
+      #7a3145 0% 55.1%,
+      #576f35 44.76% 100%
+    );
+  }
+
   .works-content {
     display: flex;
     flex-direction: row;
+    max-width: 1280px;
   }
 
   .works-picture-container {
