@@ -94,3 +94,26 @@
     padding-left: 13px;
   }
 }
+<<<<<<< HEAD
+.advertisement-text{
+  font-size: 76px;
+  line-height: 1.05; /* 105.263% */
+  letter-spacing: -0.015em;
+  max-width: 1054px;
+  display: inline;
+}
+.advertisemen-accent{
+  max-width: 808px;
+  display: inline;
+  z-index: 999;
+  position: relative;
+  padding: 0 13px;
+}
+.advertisement-span{
+  display: inline-block;
+  padding-left: 13px;
+}
+}
+<!-- ALL -->
+=======
+>>>>>>> d66bea29deb02ca51bf8468320ee413279e92342
