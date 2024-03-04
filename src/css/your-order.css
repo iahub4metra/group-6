@@ -71,6 +71,39 @@
     border-color: #7A3145;
 }
 
+input[name=“user-email”]:not(:placeholder-shown):invalid {
+    border-color: #E74A3B;
+}
+
+input[name=“user-email”]:not(:placeholder-shown):valid {
+    border-color: #3CBC81;
+}
+
+.text-valid,
+.text-invalid {
+    font-size: 14px;
+    padding-left: 16px;
+    margin-top: 4px;
+    display: none;
+}
+
+.text-valid {
+    color: #3CBC81;
+}
+
+.text-invalid {
+    color: #E74A3B;
+}
+
+input[name=“user-email”]:not(:placeholder-shown):valid~.text-valid {
+    display: block;
+}
+
+input[name=“user-email”]:not(:placeholder-shown):invalid~.text-invalid {
+    display: block;
+}
+
+
 .order-modal-textarea {
     width: 100%;
     height: 122px;
@@ -93,7 +126,6 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: #141414;
-
 }
 
 .order-modal-btn {
