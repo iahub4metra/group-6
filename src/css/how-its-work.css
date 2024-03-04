@@ -40,7 +40,6 @@
 
 .works-picture {
   position: relative;
-  overflow: hidden;
 }
 
 .works-picture::after {
@@ -146,6 +145,12 @@
       #7a3145 0% 55.1%,
       #576f35 44.76% 100%
     );
+  }
+
+  .how-it-works-img {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: none;
   }
 
   .works-content {
