@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/group-6/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/group-6/assets/index-4acd6fb9.css">
+    <link rel="stylesheet" href="/group-6/assets/index-0b249066.css">
   </head>
 
   <body>
@@ -296,10 +296,16 @@
                 <form class="order-modal-form">
                     <label for="user-name" class="order-modal-label"></label>
                     <input type="text" name="user-name" class="order-modal-input" required id="user-name"
-                        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Full Name">
+                        placeholder="Full Name">
                     <label for="email" class="order-modal-label"></label>
                     <input type="email" name="user-email" class="order-modal-input" required id="email"
                         pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Email">
+
+                    <p class="text-valid">Succes</p>
+
+                    <p class="text-invalid">invalid email, try again</p>
+
+
                     <label for="user-comment" class="order-modal-label"></label>
                     <textarea name="user-comment" id="user-comment" placeholder="Comment"
                         class="order-modal-textarea"></textarea>
