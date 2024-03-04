@@ -265,6 +265,12 @@
     .header-btn:focus {
         border-color: #622133;
     }
+
+    .is-open {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
 }
 
 /* --------- */
