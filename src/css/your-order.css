@@ -63,7 +63,46 @@
     border-radius: 30px;
     padding: 14px 16px;
     margin-bottom: 15px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.order-modal-input:focus {
+    border-color: #7A3145;
+}
+
+.order-input-email:not(:placeholder-shown):invalid {
+    border-color: #E74A3B;
+}
+
+.order-input-email:not(:placeholder-shown):valid {
+    border-color: #3CBC81;
+}
+
+.text-valid,
+.text-invalid {
+    font-size: 14px;
+    padding-left: 16px;
+    margin-top: -11px;
+    display: none;
+}
+
+.text-valid {
+    color: #3CBC81;
+}
+
+.text-invalid {
+    color: #E74A3B;
+}
+
+.order-input-email:not(:placeholder-shown):valid~.text-valid {
+    display: block;
+}
+
+.order-input-email:not(:placeholder-shown):invalid~.text-invalid {
+    display: block;
+}
+
 
 .order-modal-textarea {
     width: 100%;
@@ -73,6 +112,12 @@
     padding: 14px 16px;
     margin-bottom: 20px;
     resize: none;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-modal-textarea:focus {
+    border-color: #7A3145;
 }
 
 .order-modal-input::placeholder, .order-modal-textarea::placeholder {
@@ -81,7 +126,6 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: #141414;
-
 }
 
 .order-modal-btn {
@@ -93,12 +137,17 @@
     text-transform: uppercase;
     color: #FBFBFB;
     border-radius: 30px;
-    /* padding: 16px 129px; */
-    /* width: 295px; */
+    cursor: pointer;
     width: 100%;
     height: 50px;
     background-color: #576F35;
     border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-modal-btn:hover,
+.order-modal-btn:focus {
+    background-color: #7A3145;
 }
 
 .order-second-container {
@@ -154,6 +203,13 @@
     font-size: 24px;
     line-height: 1.08;
     letter-spacing: -0.01em;
+    cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-link:hover,
+.order-link:focus {
+    color: rgba(251, 251, 251, 0.5);
 }
 
 .order-item-text {
@@ -171,24 +227,27 @@
     }
 
     .order-title {
+        max-width: 640px;
         font-size: 64px;
         line-height: 1;
-        padding-left: 32px;
         margin-bottom: 25px;
     }
 
     .order-title-text {
         font-size: 16px;
         line-height: 1.25;
-        margin-left: 32px;
         width: 640px;
         margin-bottom: 50px;
     }
 
+    .order-desktop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .order-modal {
         padding: 50px 100px;
-        margin-right: 70px;
-        margin-left: 70px;
         width: 628px;
         min-height: 534px;
     }
@@ -199,6 +258,7 @@
 
     .order-modal-input {
         padding: 16px 16px;
+        margin-bottom: 15px;
         height: 52px;
     }
 
@@ -210,8 +270,6 @@
 
     .order-second-container {
         margin-top: 25px;
-        margin-right: 70px;
-        margin-left: 70px;
         padding: 50px;
         width: 628px;
         height: 490px;
@@ -228,9 +286,48 @@
         line-height: 1;
     }
 
+    .order-list {
+        gap: 12px;
+    }
+
     .order-item-text {
         font-style: 32px;
         line-height: 1;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .order-title {
+        max-width: 751px;
+
+    }
+
+    .order-title-text {
+        width: 742px;
+    }
+
+    .order-desktop {
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .order-modal {
+        margin: 0;
+        padding: 50px;
+        width: 529px;
+        min-height: 534px;
+    }
+
+    .order-second-container {
+        margin: 0;
+        width: 527px;
+        min-height: 534px;
+    }
+
+    .order-list {
+        width: 357px;
+        gap: 12px;
     }
     
 }

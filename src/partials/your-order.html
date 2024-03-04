@@ -1,10 +1,13 @@
 <section class="order">
     <div class="container order-container">
-        <h2 class="order-title">Fresh <span class="order-title-span">Harvest</span> Box has got you covered</h2>
-        <p class="order-title-text">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone
-            looking
-            to eat healthier or support local
-            farmers. Order your box today and start enjoying the best that nature has to offer!</p>
+        <div class="order-title-container">
+            <h2 class="order-title">Fresh <span class="order-title-span">Harvest</span> Box has got you covered</h2>
+            <p class="order-title-text">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone
+                looking
+                to eat healthier or support local
+                farmers. Order your box today and start enjoying the best that nature has to offer!</p>
+        </div>
+
 
         <div class="order-desktop">
             <div class="order-modal">
@@ -16,10 +19,16 @@
                     <input type="text" name="user-name" class="order-modal-input" required id="user-name"
                         placeholder="Full Name">
                     <label for="email" class="order-modal-label"></label>
-                    <input type="email" name="user-email" class="order-modal-input" required id="email"
-                        placeholder="Email">
-                    <label for="user-text" class="order-modal-label"></label>
-                    <textarea name="user-text" id="user-text" placeholder="Comment"
+                    <input type="email" name="user-email" class="order-modal-input order-input-email" required
+                        id="email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Email">
+
+                    <p class="text-valid">Succes</p>
+
+                    <p class="text-invalid">invalid email, try again</p>
+
+
+                    <label for="user-comment" class="order-modal-label"></label>
+                    <textarea name="user-comment" id="user-comment" placeholder="Comment"
                         class="order-modal-textarea"></textarea>
                     <button class="order-modal-btn" type="submit">Send</button>
                 </form>
