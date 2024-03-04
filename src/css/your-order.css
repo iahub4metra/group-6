@@ -71,11 +71,11 @@
     border-color: #7A3145;
 }
 
-input[name=“user-email”]:not(:placeholder-shown):invalid {
+.order-input-email:not(:placeholder-shown):invalid {
     border-color: #E74A3B;
 }
 
-input[name=“user-email”]:not(:placeholder-shown):valid {
+.order-input-email:not(:placeholder-shown):valid {
     border-color: #3CBC81;
 }
 
@@ -83,7 +83,7 @@ input[name=“user-email”]:not(:placeholder-shown):valid {
 .text-invalid {
     font-size: 14px;
     padding-left: 16px;
-    margin-top: 4px;
+    margin-top: -11px;
     display: none;
 }
 
@@ -95,11 +95,11 @@ input[name=“user-email”]:not(:placeholder-shown):valid {
     color: #E74A3B;
 }
 
-input[name=“user-email”]:not(:placeholder-shown):valid~.text-valid {
+.order-input-email:not(:placeholder-shown):valid~.text-valid {
     display: block;
 }
 
-input[name=“user-email”]:not(:placeholder-shown):invalid~.text-invalid {
+.order-input-email:not(:placeholder-shown):invalid~.text-invalid {
     display: block;
 }
 
