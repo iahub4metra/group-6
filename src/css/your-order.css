@@ -71,6 +71,39 @@
     border-color: #7A3145;
 }
 
+.order-input-email:not(:placeholder-shown):invalid {
+    border-color: #E74A3B;
+}
+
+.order-input-email:not(:placeholder-shown):valid {
+    border-color: #3CBC81;
+}
+
+.text-valid,
+.text-invalid {
+    font-size: 14px;
+    padding-left: 16px;
+    margin-top: -11px;
+    display: none;
+}
+
+.text-valid {
+    color: #3CBC81;
+}
+
+.text-invalid {
+    color: #E74A3B;
+}
+
+.order-input-email:not(:placeholder-shown):valid~.text-valid {
+    display: block;
+}
+
+.order-input-email:not(:placeholder-shown):invalid~.text-invalid {
+    display: block;
+}
+
+
 .order-modal-textarea {
     width: 100%;
     height: 122px;
@@ -93,7 +126,6 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: #141414;
-
 }
 
 .order-modal-btn {
