@@ -47,6 +47,7 @@
     padding: 16px 32px;
     display: none;
     border: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ---------- */
@@ -147,7 +148,12 @@
     border-radius: 30px;
     background: #FBFBFB;
     border: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+
+.mobil-btn:focus {
+    color: rgba(122, 49, 69, 0.70);
 }
 
 /* ---------- */
@@ -193,6 +199,8 @@
 
     .mobil-btn {
         padding: 16px 32px;
+        font-size: 18px;
+        line-height: 20px;
     }
 
     .logo-text {
@@ -210,6 +218,9 @@
         height: 18px;
     }
 
+    .mobil-btn:focus {
+        color: rgba(122, 49, 69, 0.70);
+    }
 }
 
 @media screen and (min-width:1280px) {
@@ -250,6 +261,10 @@
         gap: 70px;
     }
 
+    .header-btn:hover,
+    .header-btn:focus {
+        border-color: #622133;
+    }
 }
 
 /* --------- */
