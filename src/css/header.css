@@ -4,7 +4,6 @@
 
 .heder-container {
     padding-top: 20px;
-/*     padding-bottom: 48px; */
 }
 
 .logo-green {
@@ -18,21 +17,9 @@ gap: 4px;
   justify-content:space-between;
 }
 
-.header-logo {
-
-}
-
-.header-logo-menu {
-    margin-left: 135px;
-    margin-right: 20px;
-}
-
-
 .header-navigation {
 display: none;
 }
-
-.header-soc-list {}
 
 .header-soc-item {
     color: #FBFBFB;
@@ -49,8 +36,6 @@ display: none;
     border: 1px solid rgba(251, 251, 251, 0.40);
     
 }
-
-.header-menu-link {}
 
 .heder-btn {
     color: #FBFBFB;
@@ -69,10 +54,6 @@ display: none;
 }
 /* ---------- */
 /* /* Mobil-heder */
-
-.mobil-menu-page {
-
-}
 
 .mobil-menu {
 opacity: 0;
@@ -227,13 +208,6 @@ border: none;
     padding: 16px 32px;
 }
 
-    .header-logo-menu {
-    margin-left: 470px;
-    }
-    .logo-green {
-    margin-top: 48px;
-    margin-bottom: 62px;
-}
 .logo-text {
     width: 168px;
     height: 15px;
