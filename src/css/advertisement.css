@@ -107,7 +107,7 @@
 .advertisemen-accent {
   max-width: 808px;
   display: inline;
-  z-index: 999;
+  z-index: 99;
   position: relative;
   padding: 0 13px;
 }
