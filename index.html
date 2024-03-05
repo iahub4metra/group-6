@@ -20,77 +20,75 @@
     />
     
     <script type="module" crossorigin src="/group-6/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/group-6/assets/index-8f09473c.css">
+    <link rel="stylesheet" href="/group-6/assets/index-05654ecb.css">
   </head>
 
   <body>
     <!-- Heder -->
 <header class="header">
-    <div class="container heder-container">
-        <div class="logo-box">
-            <div class="logo-green">
-                <a class="header-logo" href="./index.html">
-                    <svg class="logo-first" width="18" height="18">
-                        <use href="/group-6/assets/icons-cbe70c00.svg#logo">
-                        </use>
-                    </svg>
-                </a>
-                <a class="header-logo" href="./index.html">
-                    <svg class="logo-text" width="148" height="12">
-                        <use href="/group-6/assets/icons-cbe70c00.svg#logo-text">
-                        </use>
-                    </svg>
-                </a>
-            </div>
-            <a class="header-logo-menu" href="./index.html">
-                <svg class="menu-icon" width="36" height="36">
-                    <use href="/group-6/assets/icons-cbe70c00.svg#mobile-menu">
-                    </use>
-                </svg>
-            </a>
-        </div>
-        <nav class="header-navigation">
-            <ul class="header-soc-list">
-                <li class="header-soc-item">
-                    <a class="header-menu-link" href="#how-it-works">How It Works</a>
-                </li>
-                <li class="header-soc-item">
-                    <a class="header-menu-link" href="#vegetables">Vegetables</a>
-                </li>
-                <li class="header-soc-item">
-                    <a class="header-menu-link" href="#reviews">Reviews</a>
-                </li>
-            </ul>
-        </nav>
-        <button type="button" class="heder-btn">Shop now</button>
+  <div class="container heder-container">
+    <div class="logo-box">
+      <div class="logo-green">
+        <a class="header-logo" href="./index.html">
+          <svg class="logo-first" width="18" height="18">
+            <use href="/group-6/assets/icons-cbe70c00.svg#logo"></use>
+          </svg>
+        </a>
+        <a class="header-logo" href="./index.html">
+          <svg class="logo-text" width="148" height="12">
+            <use href="/group-6/assets/icons-cbe70c00.svg#logo-text"></use>
+          </svg>
+        </a>
+      </div>
+      <button type="button" class="header-logo-menu" id="open-mobmenu">
+        <svg class="menu-icon" width="36" height="36">
+          <use href="/group-6/assets/icons-cbe70c00.svg#mobile-menu"></use>
+        </svg>
+      </button>
     </div>
-    <!-- ----------- -->
-    <!-- Mobil-menu -->
-    <div class="mobil-menu is-open">
-        <div class="mobil-menu-page">
-            <button type="button" class="mobil-btn-close">
-                <svg class="mobil-icons" width="16" height="16">
-                    <use href="/group-6/assets/icons-cbe70c00.svg#close-mobile-menu">
-                    </use>
-                </svg>
-            </button>
-            <nav class="mobil-navigation">
-                <ul class="mobil-list">
-                    <li class="mobil-soc">
-                        <a class="mobil-menu-link" href="#how-it-works">How It Works</a>
-                    </li>
-                    <li class="header-soc-item">
-                        <a class="header-menu-link" href="#vegetables">Vegetables</a>
-                    </li>
-                    <li class="header-soc-item">
-                        <a class="header-menu-link" href="#reviews">Reviews</a>
-                    </li>
-                </ul>
-            </nav>
-            <button type="button" class="mobil-btn">Shop now</button>
-        </div>
-        <!-- ---------- -->
+    <nav class="header-navigation">
+      <ul class="header-soc-list">
+        <li class="header-soc-item">
+          <a class="header-menu-link" href="#how-it-works">How It Works</a>
+        </li>
+        <li class="header-soc-item">
+          <a class="header-menu-link" href="#vegetables">Vegetables</a>
+        </li>
+        <li class="header-soc-item">
+          <a class="header-menu-link" href="#reviews">Reviews</a>
+        </li>
+      </ul>
+    </nav>
+    <button type="button" class="heder-btn">Shop now</button>
+  </div>
+  <!-- ---------- -->
+  <!-- Mobil-menu -->
+  <div class="mobil-menu is-open">
+    <div class="mobil-menu-page">
+      <button type="button" class="mobil-btn-close" id="close-mobmenu">
+        <svg class="mobil-icons" width="16" height="16">
+          <use href="/group-6/assets/icons-cbe70c00.svg#close-mobile-menu"></use>
+        </svg>
+      </button>
+      <nav class="mobil-navigation">
+        <ul class="mobil-list">
+          <li class="mobil-soc">
+            <a class="mobil-menu-link" href="#how-it-works">How It Works</a>
+          </li>
+          <li class="mobil-soc-item">
+            <a class="mobil-menu-link" href="#vegetables">Vegetables</a>
+          </li>
+          <li class="mobil-soc-item">
+            <a class="mobil-menu-link" href="#reviews">Reviews</a>
+          </li>
+        </ul>
+      </nav>
+      <button type="button" class="mobil-btn">Shop now</button>
+    </div>
+  </div>
+  <!-- --------- -->
 </header>
+
 
     <main>
       <section class="section-hero">
@@ -414,5 +412,6 @@
 </footer>
 
     
+    <script src="./javascript-menu-mob/mobmenu.js"></script>
   </body>
 </html>
